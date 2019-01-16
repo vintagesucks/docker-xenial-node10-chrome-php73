@@ -40,6 +40,7 @@ RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
 RUN apt-get -y install \
   nodejs \
   yarn \
+  php-xdebug \
   php7.3-fpm \
   php7.3-mbstring \
   php7.3-dom \
