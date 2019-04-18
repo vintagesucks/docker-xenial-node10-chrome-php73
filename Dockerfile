@@ -49,6 +49,7 @@ RUN apt-get -y install \
   php7.3-gd \
   php7.3-zip \
   php7.3-sqlite3 \
+  php7.3-bcmath \
   php7.3-mysql
 
 # install Composer
