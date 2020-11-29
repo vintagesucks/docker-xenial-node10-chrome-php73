@@ -1,5 +1,0 @@
-services:
-  - docker
-
-script:
-- docker build -t docker-xenial-node10-chrome-php73 -f Dockerfile .
