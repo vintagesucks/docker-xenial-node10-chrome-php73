@@ -24,6 +24,7 @@ jobs:
         with:
             commit-message: 'PHP ${{steps.version.outputs.prop}}'
             committer: 'Nikolas Evers <vintagesucks@users.noreply.github.com>'
+            author: 'Nikolas Evers <vintagesucks@users.noreply.github.com>'
             branch: 'php-${{steps.version.outputs.prop}}'
             delete-branch: true
             title: 'PHP ${{steps.version.outputs.prop}}'
